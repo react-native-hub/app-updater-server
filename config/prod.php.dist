@@ -1,12 +1,12 @@
 <?php
 
-// configure your app for the production environment
+$app['updater.baseurl'] = '';
+$app['updater.file_path'] = '';
 
 $app['twig.path'] = array(__DIR__ . '/../templates');
 $app['twig.options'] = array('cache' => __DIR__ . '/../var/cache/twig');
 
 /**
- * 
  * 
  * @see https://silex.sensiolabs.org/doc/2.0/providers/doctrine.html#using-multiple-databases
  */
